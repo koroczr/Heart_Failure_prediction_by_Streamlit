@@ -39,7 +39,7 @@ This application is able to predict the Death or No Death event based on the raw
 As you can see the Accuracy is 81,1% (Help_for_Creation file !). For the future steps, I will find alternative models and better parameters for more accurate prediction.
 
 ## For the execute please use Streamlit package !
-Installation: pip install streamlit
+Installation: pip install streamlit \n
 Execute: streamlit run ...(file) 
   For instance: streamlit run Heart_Failure_prediction_by_Streamlit.py
 
