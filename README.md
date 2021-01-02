@@ -40,8 +40,8 @@ As you can see the Accuracy is 81,1% (Help_for_Creation file !). For the future 
 
 ## For the execute please use Streamlit package !
 Installation: pip install streamlit <br>
-Execute: streamlit run ...(file) 
-  For instance: streamlit run Heart_Failure_prediction_by_Streamlit.py
+Execute: streamlit run ...(file) <br>
+  (For instance: streamlit run Heart_Failure_prediction_by_Streamlit.py)
 
 
 
