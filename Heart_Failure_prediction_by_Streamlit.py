@@ -22,13 +22,13 @@ def user_input_features():
     hbp = st.sidebar.selectbox('High blood pressure',('No','Yes'))
     smoking = st.sidebar.selectbox('Smoking',('No','Yes'))
     diabetes = st.sidebar.selectbox('Diabetes',('No','Yes'))
-    age = st.sidebar.slider('Age', 20,95,40)
+    age = st.sidebar.slider('Age', 20,95,20)
     creatinine = st.sidebar.slider('Creatinine Phosphokinase', 23,7861,23)
     ejection = st.sidebar.slider('Ejection Fraction', 14,80,14)
     platelets = st.sidebar.slider('Platelets', 25100,850000,25100)
     serum_creatinine = st.sidebar.slider('Serum Creatinine', 0.5,9.4,0.5)
     serum_sodium = st.sidebar.slider('Serum Sodium', 113,148,113)
-    lastvis = st.sidebar.slider('Follow-up period', 0,300,0)
+    lastvis = st.sidebar.slider('Follow-up period (Days)', 0,300,0)
 
 
     data = {'age': [age],
