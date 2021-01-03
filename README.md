@@ -36,7 +36,7 @@ https://www.kaggle.com/andrewmvd/heart-failure-clinical-data
 # About the project:
 
 This application is able to predict the Death or No Death event based on the raw Dataset. I have used Random Forest Classifier for this project.
-As you can see the Accuracy is 81,1% (Help_for_Creation file !). For the future steps, I will find alternative models and better parameters for more accurate prediction.
+As you can see the Accuracy is 81,1% (Help_for_Creation file !). For the future steps, I will find alternative models and better parameters for more accurate prediction. And deal with the outliers.
 
 ## For the execute please use Streamlit package !
 Installation: pip install streamlit <br>
